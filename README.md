@@ -14,7 +14,7 @@ ML-powered crop price prediction system for Indian farmers. Predicts agricultura
 ## Installation
 
 #Clone repository
-git clone https://github.com/Tarika7/crop-price-prediction.git
+git clone https://github.com/Tarika7/crop-price-prediction-ml.git
 
 cd crop-price-prediction
 
