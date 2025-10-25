@@ -13,19 +13,25 @@ ML-powered crop price prediction system for Indian farmers. Predicts agricultura
 
 ## Installation
 
-Clone repository
+#Clone repository
 git clone https://github.com/Tarika7/crop-price-prediction.git
+
 cd crop-price-prediction
 
-Create virtual environment
+#Create virtual environment
+
 python -m venv crop_env
+
 crop_env\Scripts\activate # Windows
 
 source crop_env/bin/activate # Mac/Linux
-Install dependencies
+
+#Install dependencies
+
 pip install -r requirements.txt
 
-Run app
+#Run app
+
 streamlit run app/app.py
 
 ⭐ Built for Indian Farmers | 🌾 Powered by ML
