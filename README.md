@@ -12,6 +12,29 @@ ML-powered crop price prediction system for Indian farmers. Predicts agricultura
 - Historical Trend Visualizations
 
 ## Installation
+Crop_Price_Prediction folder should look like:
+Crop_Price_Prediction/
+├── app/
+│   ├── app.py                    
+│   ├── ml_backend.py             
+│   └── ui_components.py          
+│
+├── models/
+│   ├── tn_rice_model.pkl         
+│   ├── tn_wheat_model.pkl        
+│   ├── tn_lentils_moong_model.pkl
+│   ├── tn_potatoes_model.pkl     
+│   ├── tn_onions_model.pkl       
+│   ├── tn_tomatoes_model.pkl     
+│   ├── tn_sugar_model.pkl        
+│   └── tn_oil_groundnut_model.pkl
+│
+├── src/
+│   ├── 04_baseline_model.py      
+│   ├── 07_tamilnadu_analysis.py  
+│   └── 10_tn_multicrop.py        
+│                 
+└── requirements.txt              
 
 #Clone repository
 git clone https://github.com/Tarika7/crop-price-prediction-ml.git
