@@ -270,7 +270,7 @@ def generate_historical_prices(current_price, months=12, crop_name='Rice', base_
     if base_month is None:
         base_month = datetime.now().month
     
-    dates = pd.date_range(end=datetime.now(), periods=months, freq='M')
+    dates = pd.date_range(end=datetime.now(), periods=months, freq='ME')
     
     # Use crop name and month for deterministic generation
     seed_value = hash(crop_name) % 10000 + base_month * 100
