@@ -1,0 +1,16 @@
+# Python caches & virtual environments
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Raw Data files (Prevents massive uploads)
+data/raw/
+
+# Temporary generated metrics/plots
+actual_vs_predicted.png
+*.log
+
+# System files
+.DS_Store
+Thumbs.db

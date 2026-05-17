@@ -1,0 +1,5 @@
+Region,Crop/Category,Accuracy,Best Example,Sample Size
+Tamil Nadu,Pulses (avg),96.84,Lentils,100+
+Tamil Nadu,Food Grains (avg),94.79,Rice (92.70%),300+
+Tamil Nadu,Vegetables (avg),82.57,Potato/Onion,150+
+Punjab/Haryana,Wheat,70.55,Wheat,56
