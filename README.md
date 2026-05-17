@@ -55,3 +55,4 @@ Once it's running, simply open your browser and go to `http://localhost:8501`.
 
 ---
 *Built to make agriculture a little more predictable.* 🌱
+The Project is live at 'https://crop-price-prediction-ml-hdknp7bjtguz7iwbzhhsvy.streamlit.app/'
