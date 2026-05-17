@@ -23,6 +23,8 @@ The models are extremely accurate—for example, our Wheat model for Punjab has 
 - **Machine Learning:** Scikit-Learn (Random Forest & Gradient Boosting Regressors)
 - **Data Processing:** Pandas & NumPy
 - **Containerization:** Docker & Docker Compose
+  
+## The Project is live at 'https://crop-price-prediction-ml-hdknp7bjtguz7iwbzhhsvy.streamlit.app/'
 
 ## 💻 How to Run It Locally
 
@@ -55,4 +57,4 @@ Once it's running, simply open your browser and go to `http://localhost:8501`.
 
 ---
 *Built to make agriculture a little more predictable.* 🌱
-The Project is live at 'https://crop-price-prediction-ml-hdknp7bjtguz7iwbzhhsvy.streamlit.app/'
+
