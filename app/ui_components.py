@@ -210,7 +210,7 @@ def render_historical_chart(dates, prices, predicted_price, month_name, year):
     ax.plot(dates, prices, marker='o', linewidth=2.5, label='Historical Prices', color='#3498db', markersize=6)
     
     last_date = dates[-1]
-    next_month = pd.date_range(start=last_date, periods=2, freq='M')[1]
+    next_month = pd.date_range(start=last_date, periods=2, freq='ME')[1]
     
     ax.plot([last_date, next_month], [prices[-1], predicted_price],
             marker='o', linewidth=2.5, linestyle='--', label=f'Prediction ({month_name} {year})', 
